@@ -42,9 +42,32 @@ a:hover {
 }
 
 .loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   padding: 10px;
   transform: translate3d(-50%, -50%, 0);
   color: #8b8b8b;
+  z-index: 100;
+}
+
+.loading.hidden {
+  display: none;
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dom-element {
+  position: absolute;
+  pointer-events: none;
+  color: #8b8b8b;
+  font-size: 0.9rem;
 }
 
 .scrollArea {

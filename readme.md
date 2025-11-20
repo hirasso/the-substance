@@ -1,6 +1,6 @@
-# Scroll, Refraction and Shader Effects in Three.js and React
+# Scroll, Refraction and Shader Effects in Three.js
 
-Discover how to use react-three-fiber and combine some common techniques to create a Three.js powered layout with shader effects. By Paul Henschel.
+Original by Paul Henschel. This version was freed from the React and react-three-fiber dependencies.
 
 ![Featured Image](https://tympanus.net/codrops/wp-content/uploads/2019/12/ScrollRefractionShader_featured.jpg)
 
